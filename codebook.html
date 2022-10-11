@@ -1629,64 +1629,6 @@ display: none;
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#sec-load-packages" id="toc-sec-load-packages">Load
-Packages</a>
-<ul>
-<li><a href="#haven" id="toc-haven">haven</a></li>
-<li><a href="#tidyverse" id="toc-tidyverse">tidyverse</a></li>
-<li><a href="#summarytools" id="toc-summarytools">summarytools</a></li>
-</ul></li>
-<li><a href="#import-data" id="toc-import-data">Import Data</a></li>
-<li><a href="#codebook" id="toc-codebook">Codebook</a></li>
-</ul>
-</div>
-
-<div id="sec-load-packages" class="section level1 tabset">
-<h1 class="tabset">Load Packages</h1>
-<div id="haven" class="section level2">
-<h2>haven</h2>
-<pre class="r"><code>if(!require(haven)){
-        install.packages(&quot;haven&quot;)
-        library(haven)
-}</code></pre>
-<pre><code>## Loading required package: haven</code></pre>
-</div>
-<div id="tidyverse" class="section level2">
-<h2>tidyverse</h2>
-<pre class="r"><code>if(!require(tidyverse)){
-        install.packages(&quot;tidyverse&quot;)
-        library(tidyverse)
-}</code></pre>
-<pre><code>## Loading required package: tidyverse</code></pre>
-<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-## ✔ ggplot2 3.3.6      ✔ purrr   0.3.4 
-## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-## ✔ readr   2.1.2      ✔ forcats 0.5.2 
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()</code></pre>
-</div>
-<div id="summarytools" class="section level2">
-<h2>summarytools</h2>
-<pre class="r"><code>if(!require(summarytools)){
-        install.packages(&quot;summarytools&quot;)
-        library(summarytools)
-}</code></pre>
-<pre><code>## Loading required package: summarytools</code></pre>
-<pre><code>## 
-## Attaching package: &#39;summarytools&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:tibble&#39;:
-## 
-##     view</code></pre>
-</div>
-</div>
-<div id="import-data" class="section level1">
-<h1>Import Data</h1>
-<pre class="r"><code>dataset &lt;- read.csv(&quot;codebook.csv&quot;)</code></pre>
-</div>
 <div id="codebook" class="section level1">
 <h1>Codebook</h1>
 <pre class="r"><code>print(dfSummary(dataset, graph.col = TRUE), method =&#39;render&#39;)</code></pre>
