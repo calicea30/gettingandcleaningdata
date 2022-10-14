@@ -8,7 +8,7 @@ The goal of this project is to prepare tidy data that can be used for later anal
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-Using the "Run_analysis.R" script against this data will do the following:
+Using the "Run_analysis.R" script against the files in the data folder, will do the following:
 
 1. Merge the training and test datasets.
 2. Extract the Standard Deviation and Mean for each measurement.
