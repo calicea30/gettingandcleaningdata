@@ -45,4 +45,6 @@ avg_of_columns <- all_data %>%
         group_by(subject, activity) %>%
         summarise_all(mean)
 
-View(avg_of_columns)
+# Exported tidy dataset and final dataset 
+write_csv(all_data, "tidydata.csv")
+write_csv(avg_of_columns, "final.csv")
