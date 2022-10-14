@@ -46,5 +46,5 @@ avg_of_columns <- all_data %>%
         summarise_all(mean)
 
 # Exported tidy dataset and final dataset 
-write_csv(all_data, "tidydata.csv")
-write_csv(avg_of_columns, "final.csv")
+write.table(all_data, file = "tidydata.txt", row.names = FALSE)
+write.table(avg_of_columns, "final.txt", row.names = FALSE)
