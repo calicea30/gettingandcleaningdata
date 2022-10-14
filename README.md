@@ -16,4 +16,4 @@ Using the "Run_analysis.R" script against this data will do the following:
 4. Provide descriptive variable names.
 5. Create a tidy data set with the average of each variable for each activity and each subject.
 
-Additonally a codebook has been created to describe the variables, the data and work performed during the cleaning the data.
+Additonally a [codebook](https://github.com/calicea30/gettingandcleaningdata/blob/main/codebook.md) has been created to describe the variables, the data and work performed during the cleaning the data.
