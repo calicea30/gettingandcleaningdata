@@ -16,4 +16,6 @@ Using the "Run_analysis.R" script against the files in the data folder, will do 
 4. Provide descriptive variable names.
 5. Create a tidy data set with the average of each variable for each activity and each subject.
 
+A Kaggle Notebook as created, please [click here](https://www.kaggle.com/code/conniealicea/getting-and-cleaning-data-course-project/notebook?scriptVersionId=108127580) to see the script run and the output.
+
 Additonally a [codebook](https://github.com/calicea30/gettingandcleaningdata/blob/main/codebook.md) has been created to describe the variables, the data and work performed during the cleaning the data.
